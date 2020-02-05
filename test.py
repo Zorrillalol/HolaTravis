@@ -1,4 +1,4 @@
-from unittest 
+from unittest
 
 class SmokeTest(TestCase):
 	def testsmoke(self):

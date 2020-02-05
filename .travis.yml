@@ -1,11 +1,8 @@
-lenguaje: python 
-
+email: false
+lenguaje: python
+notificacitions: ~
 python: 
   - "3.7"
-
-script:
- - echo "Hola mundo de travis"
- - python test.py -v
-notificacitions:
-
-email: false
+script: 
+  - "echo \"Hola mundo de travis\""
+  - "python test.py -v"
