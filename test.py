@@ -1,6 +1,6 @@
-from unittest
+import unittest
 
-class SmokeTest(TestCase):
+class SmokeTest(unittest.TestCase):
 	def testsmoke(self):
 		self.assertEquals(2+2,4)
 
